@@ -1,1 +1,0 @@
-# TietoEVRY-Telecommunication-Mobile-Network
