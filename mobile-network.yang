@@ -1,4 +1,5 @@
-module mobile-network{
+module mobile-network
+{
     container subscribers{
         description 
             "Saves multiple subscribers"
