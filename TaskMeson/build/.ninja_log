@@ -1,0 +1,5 @@
+# ninja log v5
+0	375	1621591625	src/wrapper@sta/Wrapper.cpp.o	9469b529019a6eb1
+381	393	1621591625	src/libwrapper.a	159953e1e37753bf
+1	457	1621591625	tutorial@exe/main.cpp.o	8fc73fda5bbc02ae
+457	559	1621591625	tutorial	2aa41cedefc6da0d
