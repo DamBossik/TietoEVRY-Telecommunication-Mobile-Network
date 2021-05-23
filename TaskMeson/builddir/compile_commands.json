@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/home/nazarhazda/Desktop/TietoEVRY-Telecommunication-Mobile-Network/TaskMeson/builddir",
+    "command": "c++  -Isrc/wrapper@sta -Isrc -I../src -I../src/../headers -I../src/../api -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -MD -MQ 'src/wrapper@sta/Wrapper.cpp.o' -MF 'src/wrapper@sta/Wrapper.cpp.o.d' -o 'src/wrapper@sta/Wrapper.cpp.o' -c ../src/Wrapper.cpp",
+    "file": "../src/Wrapper.cpp"
+  },
+  {
+    "directory": "/home/nazarhazda/Desktop/TietoEVRY-Telecommunication-Mobile-Network/TaskMeson/builddir",
+    "command": "c++  -Itutorial@exe -I. -I.. -I../src/../headers -I../src/../api -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -MD -MQ 'tutorial@exe/main.cpp.o' -MF 'tutorial@exe/main.cpp.o.d' -o 'tutorial@exe/main.cpp.o' -c ../main.cpp",
+    "file": "../main.cpp"
+  }
+]
