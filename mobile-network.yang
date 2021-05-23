@@ -1,8 +1,7 @@
-module mobile-network
-{
+module mobile-network{
     container subscribers{
         description 
-            "Saves multiple subscribers"
+            "Saves multiple subscribers";
         list subscriber{
             key number;
             leaf number{
@@ -10,23 +9,37 @@ module mobile-network
                     pattern "\\+?[0-9]+(-[0-9]+)*";
                 }
                 mandatory "true";
+                description
+                    "Subscriber's phone number";
             }
             leaf userName{
-                typr string;
+                type string;
                 mandatory "true";
+                description
+                    "Subscriber's name";
             }
             leaf incomingNumber{
                 type string{
                     pattern "\\+?[0-9]+(-[0-9]+)*";
                 }
                 mandatory "true";
+                description
+                    "Incoming phone number";
             }
             leaf state{
                 type enumeration{
-                    enum busy;
-                    enum hangUp;
+                    enum busy{
+                        description
+                            "Subscriber is busy";
+                    }
+                    enum hangUp{
+                        description 
+                            "Subscriber is hanging up";
+                    }
                 }
                 mandatory "true";
+                description
+                    "States of subscriber";
             }
         }
     }
