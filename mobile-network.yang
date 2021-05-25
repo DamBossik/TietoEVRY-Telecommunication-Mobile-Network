@@ -22,7 +22,6 @@ module mobile-network{
                 type string{
                     pattern "\\+?[0-9]+(-[0-9]+)*";
                 }
-                mandatory "true";
                 description
                     "Incoming phone number";
             }
